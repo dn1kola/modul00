@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    .image-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 30vh;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+    }
+
+    .signup-form {
+      background-color: #fff;
+      width: 90%;
+      max-width: 350px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      text-align: center;
+      color: #333;
+    }
+
+    .input-field {
+      margin-bottom: 20px;
+    }
+
+    .input-field input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      transition: border-color 0.3s ease;
+    }
+
+    .input-field input:focus {
+      outline: none;
+      border-color: #007bff;
+    }
+
+    .signup-btn {
+      width: 100%;
+      padding: 12px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .signup-btn:hover {
+      background-color: #0056b3;
+    }
+
+    .social-signup {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .social-signup button {
+      margin: 0 5px;
+      padding: 10px 20px;
+      background-color: transparent;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .social-signup button:hover {
+      background-color: #f0f0f0;
+    }
+
+    .social-signup img {
+      width: 20px;
+      height: 20px;
+      margin-bottom: -5px;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+
+    <a href="index.html"><img src="slike/logo1.png" alt="Login Image"></a>
+  </div>
+  <div class="container">
+    <div class="signup-form">
+      <h2>Sign Up</h2>
+      <div class="input-field">
+        <input type="text" placeholder="Username">
+      </div>
+      <div class="input-field">
+        <input type="email" placeholder="Email">
+      </div>
+      <div class="input-field">
+        <input type="password" placeholder="Password">
+      </div>
+      <button class="signup-btn">Sign Up</button>
+      <div class="social-signup">
+        <button><img src="google-icon.png" alt="Google Icon"> Sign Up with Google</button>
+        <button><img src="apple-icon.png" alt="Apple Icon"> Sign Up with Apple</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
